@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="स्वादिष्ट आलू पनीर रेसिपी | aloo paneer recipe in Hindi"
+            android:text="Aloo paneer recipe"
             android:layout_marginTop="290dp"
             android:textSize="23dp"
             android:textColor="@color/black"/>
@@ -35,85 +35,85 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="350dp"
             android:textSize="20dp"
-            android:text="सामग्री"/>
+            android:text="Ingredients"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="380dp"
             android:textSize="15dp"
-            android:text="आलू 5-6 (उबले हुए)"/>
+            android:text="5-6 Boiled potato"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="400dp"
             android:textSize="15dp"
-            android:text="पनीर के 8-10 टुकड़े"/>
+            android:text="8-10 pieces of paneer"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="420dp"
             android:textSize="15dp"
-            android:text="टमाटर प्यूरी एक कप"/>
+            android:text="one cup tomato Paste"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="440dp"
             android:textSize="15dp"
-            android:text="प्याज का पेस्ट १ चम्मच"/>
+            android:text="1 spoon of onion paste"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="460dp"
             android:textSize="15dp"
-            android:text="लहसुन अदरक पेस्ट चम्मच"/>
+            android:text="1 spoon of ginger and garlic paste"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="480dp"
             android:textSize="15dp"
-            android:text="हल्दी पाउडर १ छोटी चम्मच"/>
+            android:text="1 teaspoon of turmeric powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="500dp"
             android:textSize="15dp"
-            android:text="लाल मिर्च पाउडर – 1 चम्मच"/>
+            android:text="1 teaspoon of red chilli powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="520dp"
             android:textSize="15dp"
-            android:text="धनिया पाउडर 1 चम्मच"/>
+            android:text="1 teaspoon of corriander powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="540dp"
             android:textSize="15dp"
-            android:text="गरम मसाला 1 चम्मच"/>
+            android:text="1 teaspoon of garam masala"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="560dp"
             android:textSize="15dp"
-            android:text="जीरा १ चम्मच"/>
+            android:text="1 teaspoon of jeera"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="580dp"
             android:textSize="15dp"
-            android:text="तेल – 2 बड़े चम्मच"/>
+            android:text="2 teaspoon of oil"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="600dp"
             android:textSize="15dp"
-            android:text="हरा धनिया थोड़ा सा"/>
+            android:text="small amount of green corriander"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="620dp"
             android:textSize="15dp"
-            android:text="स्वाद अनुसार नमक"/>
+            android:text="Salt"/>
 
         <TextView
             android:id="@+id/s1"
@@ -121,7 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="680dp"
             android:textSize="20dp"
-            android:text="बनाने की विधि - How to make Aloo Panner"/>
+            android:text="How to make Aloo Panner"/>
         <TextView
             android:id="@+id/s2"
             android:layout_width="match_parent"
@@ -129,7 +129,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s1"
             android:layout_marginTop="10dp"
-            android:text="सबसे पहले साबुत आलू को छीलकर उबालें, फिर इसे बाजू में रख दें। अब एक पैन में तेल डालकर पनीर को फ्राई कर लें और बाजू में रख दें। अब उसी पैन में थोड़ा तेल डालकर गर्म करें। तेल गर्म हो जाए तब जीरा डालकर चटकने तक भूनें।"/>
+            android:text="Firstly chop 1 medium onion (about ⅓ cup chopped onions), 2 medium to large tomatoes (about 1 cup chopped tomatoes), 1 inch ginger, 2 to 3 small to medium garlic cloves and 1 or 2 green chilies."/>
 
         <TextView
             android:id="@+id/s3"
@@ -138,7 +138,7 @@
             android:textSize="15dp"
             android:layout_marginTop="10dp"
             android:layout_below="@+id/s2"
-            android:text="अब प्याज का पेस्ट मिलाकर 1 मिनट भूनें फिर लहसुन अदरक का पेस्ट डालकर 1 मिनट भूनें। अब टमाटर प्यूरी डालकर मिला दें, फिर इसमें हल्दी, मिर्च पाउडर, धनिया पाउडर, गरम, मसाला और स्वादानुसार नमक डालकर तब तक पकाएं जबतक किनारों से तेल दिखाई ना दे। गैस की आज मीडियम ही रखें।"/>
+            android:text=" Then add all the chopped ingredients (onions, tomatoes, ginger, garlic and green chilies) in a mixer or blender jar"/>
         <TextView
             android:id="@+id/s4"
             android:layout_width="match_parent"
@@ -146,7 +146,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s3"
             android:layout_marginTop="10dp"
-            android:text="अब किनारों से तेल छूटने लगे तब २ कप पानी डालकर मिला दें। जब पानी में उबाल आने लगे तब २ आलू को हाथों से मैश करके मिला दे। फिर बाकी बचे हुए आलू और पनीर डालकर मिला दे।"/>
+            android:text="Now add ¼ teaspoon turmeric powder, ½ teaspoon coriander powder and ½ to 1 teaspoon Kashmiri red chili powder"/>
         <TextView
             android:id="@+id/s5"
             android:layout_width="match_parent"
@@ -154,7 +154,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s4"
             android:layout_marginTop="10dp"
-            android:text="अब ढक्कन लगाकर ४-५ मिनट धीमी आंच पर पकाएं। अब गैस बंद कर दे और हरा धनिया डालकर मिला लें। तैयार हो चुकी है आलू पनीर की सब्जी सर्व करने के लिए। इसे गरमा गरम रोटी या पराठा के साथ खाये और साथ में अचार रखना ना भूले।"/>
+            android:text="Now add chopped potatoes. Chop 2 medium-sized potatoes in smaller size so that they cook faster."/>
         <TextView
             android:id="@+id/s6"
             android:layout_width="match_parent"
@@ -162,7 +162,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s5"
             android:layout_marginTop="10dp"
-            android:text="आगे भुने हुए काजू डालें और अच्छी तरह हिलाएँ। 5 मिनट के लिए या ग्रेवी के थोड़ा गाढ़ा होने तक ढक्कन लगाके पकाएं। ½ टीस्पून गरम मसाला, 1 टीस्पून कसूरी मेथी और 1 टेबलस्पून धनिया पत्ती डालें। अंत में, काजू मसाला या काजू कढ़ी को रोटी या चपाती के साथ सर्व करें।"/>
+            android:text="Cover the pan with a lid and cook the potatoes on a medium-low to medium heat. Do check while the potatoes are cooking and if required add water."/>
 
         <Button
             android:id="@+id/b2"

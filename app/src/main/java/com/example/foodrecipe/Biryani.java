@@ -16,6 +16,6 @@ public class Biryani extends AppCompatActivity {
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
         WebView browser = (WebView) findViewById(R.id.webview);
         getLifecycle().addObserver(youTubePlayerView);
-        browser.loadUrl("https://hebbarskitchen.com/hi/hyderabadi-veg-biryani-veg-dum-biryani/");
+        browser.loadUrl("https://hebbarskitchen.com/veg-biryani-cooker-vegetable-biryani/");
     }
 }

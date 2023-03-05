@@ -1,21 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/menu_back">
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Lunch1"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/menu_back">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/lobster"
+            android:text="Rasgulla Recipe"
+            android:textAlignment="center"
+            android:textSize="23dp" />
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
             android:id="@+id/youtube_player_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:videoId="wCuiuzmesk8"
+            android:layout_marginTop="10dp"
+            app:videoId="QLPo1bRY1hY"
             app:autoPlay="false"
             app:showFullScreenButton="false"
             tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Rasgulla"
+            android:fontFamily="@font/lobster"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/h1"
+            android:text="Loved by all, this traditional Bengali sweet Rasgulla has soft and spongy balls made of fresh paneer and dipped in sugary syrup. You just cannot resist have more than one!"/>
+        <AutoCompleteTextView
+            android:id="@+id/secondary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Ingredients"
+            android:fontFamily="@font/amita"
+            android:textSize="35dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="2 Litre low fat milk (Refrigerated overnight, boiled"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="1/4 cup lemon juice (mixed in 1/4 cup water)"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="1 tsp refined flour (maida) or semolina"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="4 cups thin sugar syrup (flavored with cardamom or rosewater)"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="Sugar syrup"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="2 cardamom"/>
+
     </LinearLayout>
 </ScrollView>

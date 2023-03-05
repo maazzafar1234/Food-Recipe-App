@@ -2,21 +2,23 @@
 <ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#0336FF">
+    android:background="#90CAF9">
 <RelativeLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#0336FF">
+    android:background="#90CAF9">
+
     <TextView
-        android:text="Dinner Menu"
-        android:textSize="25dp"
-        android:textColor="@color/black"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:gravity="center"
         android:id="@+id/second"
-        android:textStyle="bold|italic"
-        android:background="@color/teal_200"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/top"
+        android:fontFamily="@font/amita"
+        android:gravity="center"
+        android:text="Dinner Menu"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
     <TextView
         android:id="@+id/not"
         android:layout_width="match_parent"
@@ -40,14 +42,15 @@
         android:layout_marginTop="30dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/black"/>
+
     <AutoCompleteTextView
+        android:id="@+id/secondary"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/prim"
-        android:layout_marginTop="20dp"
         android:layout_marginLeft="10dp"
-        android:id="@+id/secondary"
-        android:textColor="@color/black"/>
+        android:layout_marginTop="-30dp"
+        android:textColor="@color/black" />
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

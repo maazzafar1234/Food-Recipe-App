@@ -10,7 +10,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class LunchAdapter extends RecyclerView.Adapter<LunchAdapter.ViewHolder> {
@@ -45,7 +44,7 @@ public class LunchAdapter extends RecyclerView.Adapter<LunchAdapter.ViewHolder> 
                 }
                 if(position==1)
                 {
-                    Intent i = new Intent(con,ShevBhaji.class);
+                    Intent i = new Intent(con, SevBhaji.class);
                     con.startActivity(i);
                 }
                 if(position==2)
@@ -80,7 +79,7 @@ public class LunchAdapter extends RecyclerView.Adapter<LunchAdapter.ViewHolder> 
                 }
                 if(position==8)
                 {
-                    Intent i = new Intent(con,FryBhendi.class);
+                    Intent i = new Intent(con, FryBhindi.class);
                     con.startActivity(i);
                 }
                 if(position==9)
@@ -93,14 +92,8 @@ public class LunchAdapter extends RecyclerView.Adapter<LunchAdapter.ViewHolder> 
                     Intent i = new Intent(con,ShahiPanner.class);
                     con.startActivity(i);
                 }
-                if(position==11)
-                {
-                    Intent i = new Intent(con,DalFry.class);
-                    con.startActivity(i);
-                }
-                if(position==12)
-                {
-                    Intent i = new Intent(con,AlooPanner.class);
+                if(position==11) {
+                    Intent i = new Intent(con, AlooPanner.class);
                     con.startActivity(i);
                 }
             }

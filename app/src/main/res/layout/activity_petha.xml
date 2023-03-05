@@ -1,21 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/menu_back">
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Lunch1"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/menu_back">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/lobster"
+            android:text="Petha Recipe"
+            android:textAlignment="center"
+            android:textSize="23dp" />
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
             android:id="@+id/youtube_player_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:videoId="gBuga_Fb5_4"
+            android:layout_marginTop="10dp"
+            app:videoId="VVhs1wj9DhU"
             app:autoPlay="false"
             app:showFullScreenButton="false"
             tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Petha"
+            android:fontFamily="@font/lobster"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/h1"
+            android:text="If there is anything that comes close to the popularity of Taj Mahal from Agra, it is the delicious and popular Agra Ka Petha, a popular Indian sweet from the state. "/>
+        <AutoCompleteTextView
+            android:id="@+id/secondary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Ingredients"
+            android:fontFamily="@font/amita"
+            android:textSize="35dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="1 Kg White pumpkin (large and hard)"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="2 tsp Chemical lime"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="3 cups Sugar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="2 tbsp Milk mixed with 2 tbsp water"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="1 tbsp Lemon juice"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="3-4 Green cardamoms-peeled and crushed"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="1 tsp Gulab jal"/>
+
     </LinearLayout>
 </ScrollView>

@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="भिन्डी फ्राई - Bhendi Fry Recipe"
+            android:text="Bhindi Fry Recipe"
             android:layout_marginTop="290dp"
             android:textSize="23dp"
             android:textColor="@color/black"/>
@@ -35,49 +35,49 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="350dp"
             android:textSize="20dp"
-            android:text="सामग्री"/>
+            android:text="Ingredients"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="380dp"
             android:textSize="15dp"
-            android:text="500 ग्राम भिंडी"/>
+            android:text="500 gram bhindi"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="400dp"
             android:textSize="15dp"
-            android:text="एक चुटकी हींग"/>
+            android:text="small amount of hing"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="420dp"
             android:textSize="15dp"
-            android:text="1 टी स्पून जीरा"/>
+            android:text="1 tea spoon of hing"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="440dp"
             android:textSize="15dp"
-            android:text="स्वादानुसार नमक"/>
+            android:text="salt"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="460dp"
             android:textSize="15dp"
-            android:text="1 टी स्पून अमचूर"/>
+            android:text="1 tea spoon of aamchoor"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="480dp"
             android:textSize="15dp"
-            android:text="1/2 टी स्पून मिर्च पाउडर"/>
+            android:text="1/2 tea spoon of chilli powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="500dp"
             android:textSize="15dp"
-            android:text="डीप फ्राई के लिए तेल"/>
+            android:text="deep fry of bhindi in oil"/>
 
         <TextView
             android:id="@+id/s1"
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="540dp"
             android:textSize="20dp"
-            android:text="बनाने की विधि - How to make भिन्डी फ्राई (Bhendi Fry)"/>
+            android:text="How to make Bhindi Fry"/>
         <TextView
             android:id="@+id/s2"
             android:layout_width="match_parent"
@@ -93,7 +93,7 @@
             android:textSize="15dp"
             android:layout_marginTop="10dp"
             android:layout_below="@+id/s1"
-            android:text="भिंडी को ऊपरी और निचला भाग काट के अलग कर दें और बाकि भिंडी को आधा सेंटीमीटर गोलाई में काटें। .तेल गर्म कर लें और जब तक सब्जी का पीस कढ़ाई में डालते ही ऊपर न आ जाए, तेल को गर्म होने दें।"/>
+            android:text="भिंfirstly, in a large kadai heat oil."/>
         <TextView
             android:id="@+id/s3"
             android:layout_width="match_parent"
@@ -101,7 +101,7 @@
             android:textSize="15dp"
             android:layout_marginTop="10dp"
             android:layout_below="@+id/s2"
-            android:text="गर्म तेल में भिंडी के पीस डालकर दो मिनट तक तेज आंच पर फ्राई करें और फिर क्रीस्पी होने तक आंच को कम कर दें। .इसके बाद भिंडी बाहर निकाल लें। बची हुई भिंडी को भी इसी प्रक्रिया से फ्राई करें और दूसरी स्लॉट डालते समय आंच तेज़ कर लें।"/>
+            android:text="further add chopped bhindi."/>
         <TextView
             android:id="@+id/s4"
             android:layout_width="match_parent"
@@ -109,7 +109,7 @@
             android:textSize="15dp"
             android:layout_marginTop="10dp"
             android:layout_below="@+id/s3"
-            android:text="अब एक पैन में एक बड़ा चम्मच तेल गर्म कर लें और उसमें हींग और जीरा डालकर भूनें। अब क्रीस्पी भिंडी, नमक, अमचूर और मिर्च पाउडर डालकर अच्छे से भूनें और सर्व करें।"/>
+            android:text="stir occasionally, making sure the bhindi gets cooked well from all the sides."/>
         <Button
             android:id="@+id/b2"
             android:layout_width="match_parent"

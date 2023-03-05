@@ -16,6 +16,6 @@ public class Pulav extends AppCompatActivity {
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
         WebView browser = (WebView) findViewById(R.id.webview);
         getLifecycle().addObserver(youTubePlayerView);
-        browser.loadUrl("https://hebbarskitchen.com/hi/veg-pulao-recipe-vegetable-pulao-cooker/");
+        browser.loadUrl("https://hebbarskitchen.com/recipes/pulao-recipe-veg-pulav-recipes/");
     }
 }

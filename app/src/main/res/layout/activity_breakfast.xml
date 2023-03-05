@@ -1,34 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="match_parent"
+<ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#0336FF">
-    <TextView
-        android:text="Breakfast Item"
-        android:textSize="25dp"
-        android:textColor="@color/black"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:background="@color/teal_200"
-        android:textStyle="bold|italic"
-        android:id="@+id/secondary"/>
-    <TextView
-        android:id="@+id/not"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/secondary"
-        android:layout_marginTop="5dp"
-        android:text="Please Make Sure that your Internet is On "
-        android:textSize="12sp"
-        android:layout_marginLeft="5dp"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        android:drawableLeft="@drawable/not"/>
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="match_parent"
+    android:background="#90CAF9">
+    <RelativeLayout android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/not"
-        android:id="@+id/recycler_view"
-        android:layout_marginTop="12dp"/>
-</RelativeLayout>
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#90CAF9">
+
+        <TextView
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/top"
+            android:gravity="center"
+            android:text="Breakfast Menu"
+            android:fontFamily="@font/amita"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/not"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second"
+            android:layout_marginTop="5dp"
+            android:text="Please Make Sure that your Internet is On "
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/not"/>
+        <TextView
+            android:id="@+id/prim"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Select Primary Ingrdient"
+            android:textSize="20dp"
+            android:layout_below="@+id/second"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/secondary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/prim"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-30dp"
+            android:textColor="@color/black" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/secondary"
+            android:id="@+id/recycler_view"
+            android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+</ScrollView>

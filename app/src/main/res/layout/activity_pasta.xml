@@ -12,19 +12,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dinner Recipe - Pasta"
+            android:fontFamily="@font/amita"
             android:textSize="24dp"/>
+
         <View
             android:id="@+id/view1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@drawable/pasta"
-            android:layout_marginTop="60dp"/>
+            android:layout_marginTop="60dp"
+            android:background="@drawable/pasta" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Special Pasta recipe in Hindi"
             android:layout_marginTop="290dp"
-            android:textSize="23dp"/>
+            android:text="Special Pasta recipe"
+            android:fontFamily="@font/amita"
+            android:textSize="23dp" />
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
             android:id="@+id/youtube_player_view"
             android:layout_width="match_parent"

@@ -11,6 +11,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
             android:text="Dinner Recipe - Dal Khichadi"
             android:textSize="24dp"/>
         <View
@@ -22,7 +23,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dal Khichadi recipe in Hindi"
+            android:text="Dal Khichadi recipe"
+            android:fontFamily="@font/amita"
             android:layout_marginTop="290dp"
             android:textSize="23dp"/>
 
@@ -30,7 +32,7 @@
             android:id="@+id/youtube_player_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:videoId="SYWtizV5oCI"
+            app:videoId="2V2n1UK3LLA"
             app:autoPlay="false"
             app:showFullScreenButton="false"
             tools:ignore="MissingConstraints"

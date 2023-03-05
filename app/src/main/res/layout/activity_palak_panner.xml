@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="पालक पनीर रेसिपी | Palak Panner in hindi |"
+            android:text="Palak Panner recipe"
             android:layout_marginTop="290dp"
             android:textSize="23dp"
             android:textColor="@color/black"/>
@@ -35,146 +35,146 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="350dp"
             android:textSize="20dp"
-            android:text="सामग्री"/>
+            android:text="Ingredients"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="380dp"
             android:textSize="15dp"
-            android:text="पालक पेस्ट के लिए"/>
+            android:text="palak paste"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="400dp"
             android:textSize="15dp"
-            android:text="5 कप पानी"/>
+            android:text="5 cup of water"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="420dp"
             android:textSize="15dp"
-            android:text="1 गुच्छा पालक / स्पिनाच"/>
+            android:text="1 bunch of palak"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="440dp"
             android:textSize="15dp"
-            android:text="1 पुत्थी लहसुन"/>
+            android:text="1 dry garlic"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="460dp"
             android:textSize="15dp"
-            android:text="1 इंच अदरक"/>
+            android:text="1 inch ginger"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="480dp"
             android:textSize="15dp"
-            android:text="3 हरी मिर्च"/>
+            android:text="3 green chilli"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="500dp"
             android:textSize="15dp"
-            android:text="अन्य अवयव:"/>
+            android:text="others"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="520dp"
             android:textSize="15dp"
-            android:text="3 टी स्पून तेल"/>
+            android:text="3 tea spoon oil"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="540dp"
             android:textSize="15dp"
-            android:text="1 टी स्पून मक्खन"/>
+            android:text="1 tea spoon butter"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="560dp"
             android:textSize="15dp"
-            android:text="11 क्यूब पनीर"/>
+            android:text="11 cube paneer"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="580dp"
             android:textSize="15dp"
-            android:text="1 टी स्पून जीरा"/>
+            android:text="1 tea spoon jeera"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="600dp"
             android:textSize="15dp"
-            android:text="1 इंच दालचीनी"/>
+            android:text="1 inch daalchini"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="620dp"
             android:textSize="15dp"
-            android:text="4 लौंग"/>
+            android:text="4 cloves"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="640dp"
             android:textSize="15dp"
-            android:text="2 फली इलायची"/>
+            android:text="2 Elaichi"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="660dp"
             android:textSize="15dp"
-            android:text="1 बे पत्ती / तेज पत्ता"/>
+            android:text="1 tej patta"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="680dp"
             android:textSize="15dp"
-            android:text="2 टी स्पून कसूरी मेथी"/>
+            android:text="2 tea spoon kasoori methi"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="700dp"
             android:textSize="15dp"
-            android:text="½ प्याज, बारीक कटा हुआ"/>
+            android:text="½ onion"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="720dp"
             android:textSize="15dp"
-            android:text="½ टमाटर, बारीक कटा हुआ"/>
+            android:text="½ slices of tomato"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="740dp"
             android:textSize="15dp"
-            android:text="¼ कप पानी"/>
+            android:text="¼ cup water"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="760dp"
             android:textSize="15dp"
-            android:text="¾ टी स्पून नमक"/>
+            android:text="¾ tea spoon salt"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="780dp"
             android:textSize="15dp"
-            android:text="¼ टी स्पून गरम मसाला"/>
+            android:text="¼ tea spoon garam masala"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="800dp"
             android:textSize="15dp"
-            android:text="2 टेबल स्पून क्रीम / मलाई"/>
+            android:text="2 table spoon malai"/>
         <TextView
             android:id="@+id/s1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="900dp"
             android:textSize="20dp"
-            android:text="बनाने की विधि - How to make पालक पनीर रेसिपी |"/>
+            android:text="How to make palak paneer"/>
         <TextView
             android:id="@+id/s2"
             android:layout_width="match_parent"
@@ -182,7 +182,7 @@
             android:textSize="15dp"
             android:layout_marginTop="10dp"
             android:layout_below="@+id/s1"
-            android:text="सबसे पहले, 5 कप पानी उबालें और 1 गुच्छा पालक डालें। पलक को पानी में भिगोएँ और 2 मिनट तक उबालें। एक बार जब पालक थोड़ा रंग बदलती है, तो ब्लांच किए गए पालक को हटा दें।"/>
+            android:text="Boil 3 cups water in a pan, microwave or electric heater. Add ¼ teaspoon salt to the hot water and stir."/>
 
         <TextView
             android:id="@+id/s3"
@@ -191,7 +191,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s2"
             android:layout_marginTop="10dp"
-            android:text="बर्फ के ठंडे पानी में ब्लान्चेड पालक को स्थानांतरित करें। यह पालक के चमकीले हरे रंग को बनाए रखने में मदद करता है। एक बार जब पलक पूरी तरह से ठंडा हो जाता है, तो एक ब्लेंडर में स्थानांतरण करे। 1 इंच अदरक, 1 पुत्थी लहसुन और 3 हरी मिर्च भी डालें।"/>
+            android:text="After 1 minute, strain the spinach leaves."/>
         <TextView
             android:id="@+id/s4"
             android:layout_width="match_parent"
@@ -199,7 +199,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s3"
             android:layout_marginTop="10dp"
-            android:text="बिना पानी मिलाए चिकनी पेस्ट पाने के लिए ब्लेंड करे। एक तरफ रख दें। अब एक बड़ी कड़ाही में 3 चम्मच तेल और 1चम्मच मक्खन डालें। पनीर के 11 क्यूब्स को सुनहरा भूरा होने तक भूनें और एक तरफ रख दें।"/>
+            android:text="Drain the ice cold water and press the spinach to remove any excess moisture. Add the spinach in a blender or grinder jar with 1 inch chopped ginger, 1 to 2 garlic cloves and 1 to 2 chili peppers (green chillies)."/>
         <TextView
             android:id="@+id/s5"
             android:layout_width="match_parent"
@@ -207,7 +207,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s4"
             android:layout_marginTop="10dp"
-            android:text="उसी कडाई में 1 चम्मच जीरा, 1 इंच दालचीनी, 4 लौंग, 2 फली इलायची, 1 तेज पत्ता और 1चम्मच कसूरी मेथी डालें। मसाले को खुशबूदार होने तक भुने। इसके अलावा, प्याज डालें और इसे सुनहरा भूरा होने तक तलें। इसके अलावा, टमाटर डालिए और तलिए, तब तक मिलाएं जब तक टमाटर नरम और गूदेदार न हो जाए।"/>
+            android:text="Make a smooth spinach purée by blitzing the ingredients together. There should be no need to add any water to make the purée."/>
         <TextView
             android:id="@+id/s6"
             android:layout_width="match_parent"
@@ -215,7 +215,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s5"
             android:layout_marginTop="10dp"
-            android:text="अब तैयार पालक पेस्ट, ¼ कप पानी और ¾ चम्मच नमक डालें। आवश्यकता के अनुसार स्थिरता को  समायोजित करें औरअच्छी तरह से मिलाएं। इसके अलावा, भुना हुआ पनीर डालें और अच्छी तरह मिलाएँ। 5 मिनट के लिए या जब तक पनीर स्वाद को अवशोषित करने तक उबाल लें।"/>
+            android:text="Heat 2 tablespoons oil, ghee or butter in a pan or kadai (wok). In the photos below I used butter."/>
         <TextView
             android:id="@+id/s7"
             android:layout_width="match_parent"
@@ -223,7 +223,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s6"
             android:layout_marginTop="10dp"
-            android:text="आंच बंद करें और ¼ चम्मच गरम मसाला, 1चम्मच कसूरी मेथी और 2 बड़ा चम्मच क्रीम डालें। अच्छी तरह मिलाएं। अंत में, रोटी / नान के साथ रेस्टोरेंट स्टाइल पालक पनीर परोसें।"/>
+            android:text="Heat 2 tablespoons oil, ghee or butter in a pan or kadai (wok). In the photos below I used butter."/>
         <Button
             android:id="@+id/b2"
             android:layout_width="match_parent"

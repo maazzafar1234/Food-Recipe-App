@@ -10,7 +10,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class DinnerAdapter extends RecyclerView.Adapter<DinnerAdapter.ViewHolder> {
@@ -70,7 +69,7 @@ public class DinnerAdapter extends RecyclerView.Adapter<DinnerAdapter.ViewHolder
                 }
                 if(position==6)
                 {
-                    Intent i = new Intent(con,DalMhakhni.class);
+                    Intent i = new Intent(con, DalMakhani.class);
                     con.startActivity(i);
                 }
                 if(position==7)

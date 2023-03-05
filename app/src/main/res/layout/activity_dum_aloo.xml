@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="दम आलू रेसिपी | Dum Aloo Recipe |"
+            android:text="Dum Aloo Recipe"
             android:layout_marginTop="290dp"
             android:textSize="23dp"
             android:textColor="@color/black"/>
@@ -35,104 +35,104 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="330dp"
             android:textSize="20dp"
-            android:text="सामग्री"/>
+            android:text="Ingredients"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="360dp"
             android:textSize="15dp"
-            android:text="छोटे आलू - 400 ग्राम या 12- 14"/>
+            android:text="12- 14 small potatoes"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="380dp"
             android:textSize="15dp"
-            android:text="टमाटर- 3 -4  मीडियम साइज"/>
+            android:text="3 -4 medium tomato"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="400dp"
             android:textSize="15dp"
-            android:text="हरी मिर्च- 2"/>
+            android:text="2-green chilli"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="420dp"
             android:textSize="15dp"
-            android:text="रिफाइन्ड तेल- 2 टेबिल स्पून और आलू तलने के लिये"/>
+            android:text="2 table spoon refined oil"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="440dp"
             android:textSize="15dp"
-            android:text="अदरक - एक इंच लम्बा टुकड़ा"/>
+            android:text="1 inch long ginger"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="460dp"
             android:textSize="15dp"
-            android:text="जीरा - आधा छोटी चम्मच"/>
+            android:text="jeera half tea spoon"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="480dp"
             android:textSize="15dp"
-            android:text="हल्दी पाउडर - आधा छोटी चम्मच"/>
+            android:text="half tea spoon turmeric"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="500dp"
             android:textSize="15dp"
-            android:text="धनियाँ पाउडर - एक छोटी चम्मच"/>
+            android:text="1 tea spoon corriander powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="520dp"
             android:textSize="15dp"
-            android:text="क्रीम या मलाई- 50 ग्राम (1/4 कप)"/>
+            android:text="1/4-cream"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="540dp"
             android:textSize="15dp"
-            android:text="काजू - 25- 30 काजू"/>
+            android:text="25- 30 kaju"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="560dp"
             android:textSize="15dp"
-            android:text="मिर्च पाउडर-  एक चोथाई छोटी चम्मच से कम"/>
+            android:text="1 tea spoon red chilli powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="580dp"
             android:textSize="15dp"
-            android:text="गरम मसाला- एक चोथाई छोटी चम्मच से कम(थोड़ा सा)"/>
+            android:text="1/4 garam masala"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="600dp"
             android:textSize="15dp"
-            android:text="हरा धनियाँ - एक टेबिल स्पून(बारीक कतरा हुआ)"/>
+            android:text="1 table sp[oon green corriander"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="620dp"
             android:textSize="15dp"
-            android:text="ताजा दही - 50 ग्राम (1/4 कप) यदिआप चाहें तो"/>
+            android:text="50 gram - dahi "/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="640dp"
             android:textSize="15dp"
-            android:text="नमक - स्वादानुसार"/>
+            android:text="salt"/>
         <TextView
             android:id="@+id/s1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="680dp"
             android:textSize="20dp"
-            android:text="बनाने की विधि - How to make दम आलू (Dum Aloo)"/>
+            android:text="How to make Dum Aloo"/>
         <TextView
             android:id="@+id/s2"
             android:layout_width="match_parent"
@@ -140,7 +140,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s1"
             android:layout_marginTop="10dp"
-            android:text="आलू को आधा छोटी चम्मच नमक डालकर उबाल लीजिये, ठंडा कीजिये और छील लीजिये. साबूत आलू में कांटे की सहायता से छेद कर लीजिये. कढ़ाई में तेल डालिये और आलू को हल्का ब्राउन होने तक तल लीजिये. तले हुये आलू को प्लेट में निकाल लीजिये. (आप चाहें तो आलू को छीलकर गोद लें और तेल लगाकर माइक्रोवेव में भी भून सकती है)."/>
+            android:text="in a kadai, add a tsp of oil along with cumin seeds."/>
 
         <TextView
             android:id="@+id/s3"
@@ -149,7 +149,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s2"
             android:layout_marginTop="10dp"
-            android:text="मिक्सी में टमाटर, हरी मिर्च, अदरक और(काजू को आधा घंटे पहले पानी में डाल कर भिगो लीजिये) काजू बारीक पीस लीजिये. कढ़ाई में तेल डाल कर गरम कीजिये सबसे पहले जीरा डालिये इसके बाद हल्दी पाउडर, धनियाँ पाउडर और अब डालिये टमाटर काजू का पेस्ट और क्रीम , मसाले को चमचे से चला चला कर भुनिये. मसाले में लाल मिर्च और नमक डालकर मिला दीजिये."/>
+            android:text="once they splutter, add prepared masala paste and fry for 5-6 minutes"/>
         <TextView
             android:id="@+id/s4"
             android:layout_width="match_parent"
@@ -157,7 +157,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s3"
             android:layout_marginTop="10dp"
-            android:text="जब मसाले से तेल अलग होता हुआ दिखाई देने लगे तब इसमे मथा हुआ दही डाल दीजिये और उबाल आने तक चलाते रहिये, तरी को आप जितना पतला या गाढ़ा रखना चाहते हैं उसके अनुसार पानी डाल दीजिये और उबाल आने तक चमचे से चलाते हुये पकाइये. गरम मसाला डालकर मिला दीजिये. ग्रेवी में आलू डाल दीजिये और 2 मिनिट तक ढककर पकने दीजिये, ताकि आलू के अन्दर सारे मसाले जब्ज हो जायं. अब गैस बन्द कर दीजिये. आधी मात्रा हरे धनिये की डाल दीजिये. दम आलू तैयार हैं."/>
+            android:text="now add spices like chilli powder, turmeric powder, coriander powder, cumin powder and salt to taste."/>
         <TextView
             android:id="@+id/s5"
             android:layout_width="match_parent"
@@ -165,7 +165,8 @@
             android:textSize="15dp"
             android:layout_below="@+id/s4"
             android:layout_marginTop="10dp"
-            android:text="तैयार दम आलू (Dum Aloo) प्याले मे निकालिये. हरे धनियाँ को ऊपर से डाल कर सजाइये. नान, परांठे, चपाती या चावल किसी के साथ परोसिये और खाइये."/>
+            android:text="turn the flame to low and add curd. give a good mix.
+"/>
 
         <Button
             android:id="@+id/b2"

@@ -12,6 +12,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Dinner Recipe - Dal Pakwan"
+            android:fontFamily="@font/amita"
             android:textSize="24dp"/>
         <View
             android:id="@+id/view1"
@@ -22,7 +23,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dal Pakwan recipe in Hindi"
+            android:text="Dal Pakwan recipe"
+            android:fontFamily="@font/amita"
             android:layout_marginTop="290dp"
             android:textSize="23dp"/>
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView

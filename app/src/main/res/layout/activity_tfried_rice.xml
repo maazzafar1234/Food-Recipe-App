@@ -11,7 +11,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dinner Recipe - Triple Fried Sejhwan Rice"
+            android:fontFamily="@font/amita"
+            android:text="Dinner Recipe - Fried Schezwan Rice"
             android:textSize="24dp"/>
         <View
             android:id="@+id/view1"
@@ -22,7 +23,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Triple Fried Sejwan Rice recipe in Hindi"
+            android:fontFamily="@font/amita"
+            android:text="Fried Sejwan Rice recipe in Hindi"
             android:layout_marginTop="290dp"
             android:textSize="23dp"/>
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView

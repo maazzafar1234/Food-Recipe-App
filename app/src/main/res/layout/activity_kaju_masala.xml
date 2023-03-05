@@ -27,7 +27,7 @@
             android:id="@+id/s1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="काजू मसाला रेसिपी | kaju masala in hindi | काजू करी रेसिपी"
+            android:text="Kaju masala recipe"
             android:layout_marginTop="290dp"
             android:textSize="23dp"
             android:textColor="@color/black"/>
@@ -38,7 +38,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/s1"
             android:textSize="20dp"
-            android:text="सामग्री"/>
+            android:text="Ingredients"/>
         <TextView
             android:id="@+id/s3"
             android:layout_width="match_parent"
@@ -46,7 +46,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s2"
-            android:text="1 टेबल स्पून घी"/>
+            android:text="1 table spoon of ghee"/>
         <TextView
             android:id="@+id/s4"
             android:layout_width="match_parent"
@@ -54,7 +54,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s3"
-            android:text="⅔ कप काजू, पूरी"/>
+            android:text="⅔ cup kaju"/>
         <TextView
             android:id="@+id/s5"
             android:layout_width="match_parent"
@@ -62,7 +62,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s4"
-            android:text="2 टी स्पून तेल"/>
+            android:text="2 tea spoon oil"/>
         <TextView
             android:id="@+id/s6"
             android:layout_width="match_parent"
@@ -70,7 +70,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s5"
-            android:text="1 टी स्पून जीरा"/>
+            android:text="1 tea spoon jeera"/>
         <TextView
             android:id="@+id/s7"
             android:layout_width="match_parent"
@@ -78,7 +78,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s6"
-            android:text="1 इंच दालचीनी स्टिक"/>
+            android:text="1 inch daalchini stick"/>
         <TextView
             android:id="@+id/s8"
             android:layout_width="match_parent"
@@ -86,7 +86,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/s7"
             android:textSize="15dp"
-            android:text="दाल चीनी - ½इंच का टुकड़ा"/>
+            android:text="½-laung"/>
         <TextView
             android:id="@+id/s9"
             android:layout_width="match_parent"
@@ -94,7 +94,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s8"
-            android:text="½ प्याज, बारीक कटा हुआ"/>
+            android:text="½-onion"/>
         <TextView
             android:id="@+id/s10"
             android:layout_width="match_parent"
@@ -102,7 +102,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s9"
-            android:text="राई - ½ चम्मच"/>
+            android:text="½-rai"/>
         <TextView
             android:id="@+id/s11"
             android:layout_width="match_parent"
@@ -110,7 +110,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/s10"
             android:textSize="15dp"
-            android:text="1 बे पत्ती / तेज पत्ता"/>
+            android:text="1-tej patta"/>
         <TextView
             android:id="@+id/s12"
             android:layout_width="match_parent"
@@ -118,7 +118,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s11"
-            android:text="½ टी स्पून हल्दी"/>
+            android:text="½ tea spoon haldi"/>
         <TextView
             android:id="@+id/s13"
             android:layout_width="match_parent"
@@ -126,7 +126,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/s12"
             android:textSize="15dp"
-            android:text="लाल मिर्च पाउडर - 1 चम्मच"/>
+            android:text="1 spoon red chilli powder"/>
         <TextView
             android:id="@+id/s14"
             android:layout_width="match_parent"
@@ -134,7 +134,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s13"
-            android:text="1 टी स्पून कश्मीरी लाल मिर्च पाउडर"/>
+            android:text="1 tea spoon kasmiri red chilli powder"/>
         <TextView
             android:id="@+id/s15"
             android:layout_width="match_parent"
@@ -142,7 +142,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s14"
-            android:text="½ टी स्पून धनिया पाउडर"/>
+            android:text="½ tea spoon dhaniya powder"/>
         <TextView
             android:id="@+id/s16"
             android:layout_width="match_parent"
@@ -150,7 +150,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s15"
-            android:text="½ टी स्पून नमक, या स्वाद के लिए"/>
+            android:text="½ tea spoon salt"/>
         <TextView
             android:id="@+id/s17"
             android:layout_width="match_parent"
@@ -158,7 +158,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s16"
-            android:text="1 कप पानी"/>
+            android:text="1cup water"/>
         <TextView
             android:id="@+id/s18"
             android:layout_width="match_parent"
@@ -166,7 +166,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s17"
-            android:text="¼ कप क्रीम / मलाई"/>
+            android:text="¼ cup cream"/>
         <TextView
             android:id="@+id/s19"
             android:layout_width="match_parent"
@@ -174,7 +174,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s18"
-            android:text="½ टी स्पून गरम मसाला"/>
+            android:text="½ tea spoon garam masala"/>
         <TextView
             android:id="@+id/s20"
             android:layout_width="match_parent"
@@ -182,7 +182,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s19"
-            android:text="1 टी स्पून कसूरी मेथी , कुचली हुई"/>
+            android:text="1 tea spoon kasuri methi"/>
         <TextView
             android:id="@+id/s21"
             android:layout_width="match_parent"
@@ -190,7 +190,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/s20"
             android:textSize="15dp"
-            android:text="1 टेबल स्पून धनिया पत्ती, बारीक कटी हुई"/>
+            android:text="1 table spoon corriander"/>
         <TextView
             android:id="@+id/s22"
             android:layout_width="match_parent"
@@ -198,7 +198,7 @@
             android:layout_marginTop="5dp"
             android:textSize="15dp"
             android:layout_below="@+id/s21"
-            android:text="प्याज टमाटर के पेस्ट के लिए:"/>
+            android:text="onion and tomato for paste"/>
         <TextView
             android:id="@+id/s23"
             android:layout_width="match_parent"
@@ -206,7 +206,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/s22"
             android:textSize="15dp"
-            android:text="1 टी स्पून तेल"/>
+            android:text="1 tea spoon oil"/>
         <TextView
             android:id="@+id/s24"
             android:layout_width="match_parent"
@@ -214,7 +214,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/s23"
             android:textSize="15dp"
-            android:text="1 प्याज, बारीक कटा हुआ"/>
+            android:text="onion thin slices"/>
         <TextView
             android:id="@+id/s25"
             android:layout_width="match_parent"
@@ -222,7 +222,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/s24"
             android:textSize="15dp"
-            android:text="3 बड़े टमाटर, बारीक कटा हुआ"/>
+            android:text="3-thin slices of tomato"/>
         <TextView
             android:id="@+id/s26"
             android:layout_width="match_parent"
@@ -230,7 +230,7 @@
             android:layout_marginTop="5dp"
             android:layout_below="@+id/s25"
             android:textSize="15dp"
-            android:text="1 टी स्पून अदरक-लहसुन का पेस्ट"/>
+            android:text="1 tea spoon garlic and ginger paste"/>
 
         <TextView
             android:id="@+id/s27"
@@ -239,7 +239,7 @@
             android:layout_marginTop="20dp"
             android:layout_below="@+id/s26"
             android:textSize="20dp"
-            android:text="बनाने की विधि - How to make काजू मसाला रेसिपी (Kaju Masala)"/>
+            android:text="How to make Kaju Masala"/>
         <TextView
             android:id="@+id/s28"
             android:layout_width="match_parent"
@@ -247,7 +247,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s27"
             android:layout_marginTop="10dp"
-            android:text="सबसे पहले काजू को एक टेबलस्पून घी में सुनहरा भूरा होने तक भूनें। एक प्लेट में स्थानांतरण करें। एक टीस्पून तेल गर्म करके टमाटर प्याज का पेस्ट तैयार करें। 1 प्याज डालें और अच्छी तरह से साट करें इसके अलावा, 1 टीस्पून अदरक-लहसुन का पेस्ट डालकर भूनें। 3 बड़े टमाटर भी डालें। 5-6 काजू डालें और टमाटर के नरम होने तक फ्राई करें। िश्रण को पूरी तरह से ठंडा होने दें, और बाद में एक ब्लेंडर में स्थानांतरित करें।"/>
+            android:text="firstly, heat a tsp of oil and add 1 tsp jeera, 1 inch cinnamon stick and 1 bay leaf. saute till they turn aromatic."/>
 
         <TextView
             android:id="@+id/s29"
@@ -256,7 +256,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s28"
             android:layout_marginTop="10dp"
-            android:text="बिना अतिरिक्त पानी डालके, स्मूथ पेस्ट में ब्लेंड करें। एक तरफ रख दीजिए। उसी कड़ाही में एक टीस्पून तेल गरम करें और उसमें 1 टीस्पून जीरा, 1 इंच दालचीनी स्टिक और 1 बे पत्ती डालें। खुशबूदार होने तक फ्राई करें। आगे ½ प्याज डालें और अच्छी तरह से भूने तैयार किया टमाटर प्याज के पेस्ट डालें और पेस्ट गाढ़ा होने तक पकाएं।"/>
+            android:text="बिfurther add ½ onion and saute well."/>
         <TextView
             android:id="@+id/s30"
             android:layout_width="match_parent"
@@ -264,7 +264,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s29"
             android:layout_marginTop="10dp"
-            android:text="मसालों को तेल आने तक भूंजे जब मसाला भूंज जाए तब हम इसमें दूध डालेंगे और इसे चलाते हुए उबाल आने तक पकाएंगे। अब हम सब्जी में नमक डाल देंगे नमक थोड़ा कम ही डाले क्यों कि सेव में  नमक होता है।"/>
+            android:text="keeping the flame on low, add ½ tsp turmeric, 1 tsp red chilli powder, ½ tsp coriander powder and ½ tsp salt."/>
         <TextView
             android:id="@+id/s31"
             android:layout_width="match_parent"
@@ -272,7 +272,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s30"
             android:layout_marginTop="10dp"
-            android:text="आंच को कम रखते हुए, ½ टीस्पून हल्दी, 1 टीस्पून लाल मिर्च पाउडर, ½ टीस्पून धनिया पाउडर और ½ टीस्पून नमक डालें। धीमी आंच पर एक मिनट के लिए भूनें। अब 1 कप पानी और ¼ कप क्रीम मिलाएं। क्रीम को अच्छी तरह से मिलाने तक लगातार हिलाएं।"/>
+            android:text="now add 1 cup water and ¼ cup cream."/>
         <TextView
             android:id="@+id/s32"
             android:layout_width="match_parent"
@@ -280,7 +280,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s31"
             android:layout_marginTop="10dp"
-            android:text="आगे भुने हुए काजू डालें और अच्छी तरह हिलाएँ। 5 मिनट के लिए या ग्रेवी के थोड़ा गाढ़ा होने तक ढक्कन लगाके पकाएं। ½ टीस्पून गरम मसाला, 1 टीस्पून कसूरी मेथी और 1 टेबलस्पून धनिया पत्ती डालें। अंत में, काजू मसाला या काजू कढ़ी को रोटी या चपाती के साथ सर्व करें।"/>
+            android:text="cover and simmer for 5 minutes or till the gravy thickens slightly."/>
 
         <Button
             android:id="@+id/b2"

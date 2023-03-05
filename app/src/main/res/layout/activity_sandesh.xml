@@ -1,21 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/menu_back">
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Lunch1"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/menu_back">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/lobster"
+            android:text="Sandesh Recipe"
+            android:textAlignment="center"
+            android:textSize="23dp" />
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
             android:id="@+id/youtube_player_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             app:videoId="Ag9Id4Wiv90"
             app:autoPlay="false"
             app:showFullScreenButton="false"
             tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Sandesh"
+            android:fontFamily="@font/lobster"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/h1"
+            android:text="A popular bengali sweets recipe or bengali dessert recipe prepared with paneer and sugar. like any other bengali sweet, even this sweet is a milk based sweet from curdled milk or chhena and then mixed with sugar before shaping it oval."/>
+        <AutoCompleteTextView
+            android:id="@+id/secondary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Ingredients"
+            android:fontFamily="@font/amita"
+            android:textSize="35dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="2 litre full cream milk"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="3 tbsp lemon juice"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="½ cup powdered sugar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="▢¼ tsp cardamom powder"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="3 tbsp tutti frutti"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="9 tbs of curd"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:text="9 tbs of vinegar"/>
+
     </LinearLayout>
 </ScrollView>

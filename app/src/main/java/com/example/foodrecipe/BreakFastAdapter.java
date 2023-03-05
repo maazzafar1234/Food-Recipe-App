@@ -78,11 +78,6 @@ public class BreakFastAdapter extends RecyclerView.Adapter<BreakFastAdapter.View
                     Intent i = new Intent(con,Sandwich.class);
                     con.startActivity(i);
                 }
-                if(position==8)
-                {
-                    Intent i = new Intent(con,Thepla.class);
-                    con.startActivity(i);
-                }
             }
         });
         holder.imageView.setImageResource(listdata[position].getImgId());

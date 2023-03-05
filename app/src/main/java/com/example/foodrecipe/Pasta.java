@@ -16,6 +16,6 @@ public class Pasta extends AppCompatActivity {
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
         WebView browser = (WebView) findViewById(R.id.webview);
         getLifecycle().addObserver(youTubePlayerView);
-        browser.loadUrl("https://www.pakwangali.in/kids-corner/how-to-make-masala-pasta-recipe-in-hindi/article/998382.html");
+        browser.loadUrl("https://hebbarskitchen.com/masala-pasta-recipe-indian-pasta-recipes/");
     }
 }

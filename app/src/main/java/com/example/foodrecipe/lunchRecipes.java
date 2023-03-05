@@ -49,12 +49,12 @@ public class lunchRecipes extends AppCompatActivity {
     // Creating Object of ViewPagerAdapter
     ViewPagerAdapter mViewPagerAdapter;
     AutoCompleteTextView first ;
-    String []a1 = {"Cauliflower (फूलगोभी)","Coriander Leaf(धनिया)","Corn (मक्का)","Red Chilli (लाल मिर्च)",
-            "Carrot","Tomato (टमाटर)", "Cluster Beans (गवार फली)", "Brinjal (बैगन)","Bengal Gram (चना)","Capsicum (शिमला मिर्च)",
-            "Fenugreek Leaf (हरी मेथी)","Onion (प्याज)","Potato (आलू)", "Garlic (लहसुन)","Lady Finger (भिन्डी)","Green chilli (हरी मिर्च)",
-            "Mushroom (मशरुम/कुकुरमुत्ता)","Peas (मटर)" , "Peppermint (पुदीना)","Radish (मूली)","Spinach (पालक)",
-            "Spring Onion (हरा प्याज़)","Sweet Potato (शकर कन्द)","Cabbage(पत्ता गोभी)","Pumpkin (कद्दू)",
-            "Bitter Melon(करेला)","keri (कैरी)"};
+    String []a1 = {"Cauliflower","Coriander Leaf","Corn","Red Chilli",
+            "Carrot","Tomato", "Cluster Beans", "Brinjal","Bengal Gram","Capsicum",
+            "Fenugreek Leaf","Onion","Potato", "Garlic","Lady Finger","Green chilli",
+            "Mushroom","Peas" , "Peppermint","Radish","Spinach",
+            "Spring Onion","Sweet Potato","Cabbage","Pumpkin",
+            "Bitter Melon","keri"};
     String  s2 ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,18 +63,17 @@ public class lunchRecipes extends AppCompatActivity {
         LunchData obj = new LunchData("First",R.drawable.kofta,"Recipe");
         LunchData[] myListData = new LunchData[] {
                 new LunchData("Malai Kofta", R.drawable.kofta,"Recipe"),
-                new LunchData("Shev Bhaji", R.drawable.shev,"Recipe"),
+                new LunchData("Sev Bhaji", R.drawable.shev,"Recipe"),
                 new LunchData("Veg Kolhapuri", R.drawable.vegkol,"Recipe"),
                 new LunchData("Kaju Masala", R.drawable.kaju,"Recipe"),
                 new LunchData("Dal Tadka", R.drawable.dal,"Recipe"),
                 new LunchData("Dum Aloo", R.drawable.dum,"Recipe"),
                 new LunchData("Matar Panner", R.drawable.ma,"Recipe"),
                 new LunchData("Palak Panner", R.drawable.palak,"Recipe"),
-                new LunchData("Tava Fry Bhendi", R.drawable.fry,"Recipe"),
+                new LunchData("Tava Fry Bhindi", R.drawable.fry,"Recipe"),
                 new LunchData("Channa Butter Masala", R.drawable.channa,"Recipe"),
                 new LunchData("Shahi Panner", R.drawable.shahi,"Recipe"),
-                new LunchData("Dal Fry", R.drawable.dalfry,"Recipe"),
-                new LunchData("Aloo Panner", R.drawable.aloopanner,"Recipe"),
+                new LunchData("Aloo Paneer", R.drawable.aloopanner,"Recipe")
         };
         RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recycler_view);
         LunchAdapter adapter1 = new LunchAdapter(this,myListData);
@@ -89,22 +88,22 @@ public class lunchRecipes extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 s2 = ((TextView)view).getText().toString();
-                if(s2.equals("Corn (मक्का)"))
+                if(s2.equals("Corn"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Corn.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Cauliflower (फूलगोभी)"))
+                else if(s2.equals("Cauliflower"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Cauliflower.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Coriander Leaf(धनिया)"))
+                else if(s2.equals("Coriander Leaf"))
                 {
                     Intent z = new Intent(lunchRecipes.this,CorianderLeaf.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Red Chilli (लाल मिर्च)"))
+                else if(s2.equals("Red Chilli"))
                 {
                     Intent z = new Intent(lunchRecipes.this,RedChilli.class);
                     startActivity(z);
@@ -114,112 +113,112 @@ public class lunchRecipes extends AppCompatActivity {
                     Intent z = new Intent(lunchRecipes.this,Carrot.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Tomato (टमाटर)"))
+                else if(s2.equals("Tomato"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Tomato.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Cluster Beans (गवार फली)"))
+                else if(s2.equals("Cluster Beans"))
                 {
                     Intent z = new Intent(lunchRecipes.this,ClusterBeans.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Brinjal (बैगन)"))
+                else if(s2.equals("Brinjal"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Brinjal.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Bengal Gram (चना)"))
+                else if(s2.equals("Bengal Gram"))
                 {
                     Intent z = new Intent(lunchRecipes.this,BengalGram.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Capsicum (शिमला मिर्च)"))
+                else if(s2.equals("Capsicum"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Capsicum.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Fenugreek Leaf (हरी मेथी)"))
+                else if(s2.equals("Fenugreek Leaf"))
                 {
                     Intent z = new Intent(lunchRecipes.this,FenugreekLeaf.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Onion (प्याज)"))
+                else if(s2.equals("Onion"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Onion.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Potato (आलू)"))
+                else if(s2.equals("Potato"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Potato.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Garlic (लहसुन)"))
+                else if(s2.equals("Garlic"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Garlic.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Lady Finger (भिन्डी)"))
+                else if(s2.equals("Lady Finger"))
                 {
                     Intent z = new Intent(lunchRecipes.this,LadyFinger.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Green chilli (हरी मिर्च)"))
+                else if(s2.equals("Green chilli"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Greenchilli.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Mushroom (मशरुम/कुकुरमुत्ता)"))
+                else if(s2.equals("Mushroom"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Mushroom.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Peas (मटर)"))
+                else if(s2.equals("Peas"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Peas.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Peppermint (पुदीना)"))
+                else if(s2.equals("Peppermint"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Peppermint.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Radish (मूली)"))
+                else if(s2.equals("Radish"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Radish.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Spinach (पालक)"))
+                else if(s2.equals("Spinach"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Spinach.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Spring Onion (हरा प्याज़)"))
+                else if(s2.equals("Spring Onion"))
                 {
                     Intent z = new Intent(lunchRecipes.this,SpringOnion.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Sweet Potato (शकर कन्द)"))
+                else if(s2.equals("Sweet Potato"))
                 {
                     Intent z = new Intent(lunchRecipes.this,SweetPotato.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Cabbage(पत्ता गोभी)"))
+                else if(s2.equals("Cabbage"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Cabbage.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Pumpkin (कद्दू)"))
+                else if(s2.equals("Pumpkin"))
                 {
                     Intent z = new Intent(lunchRecipes.this,Pumpkin.class);
                     startActivity(z);
                 }
-                else if(s2.equals("Bitter Melon(करेला)"))
+                else if(s2.equals("Bitter Melon"))
                 {
                     Intent z = new Intent(lunchRecipes.this,BitterMelon.class);
                     startActivity(z);
                 }
-                else if(s2.equals("keri (कैरी)"))
+                else if(s2.equals("keri"))
                 {
                     Intent z = new Intent(lunchRecipes.this,keri.class);
                     startActivity(z);

@@ -1,29 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_height="match_parent"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/white">
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/mediumgrey"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/one"
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ℝ𝕖𝕔𝕚𝕡𝕖𝕤 𝔹𝕠𝕠𝕜"
-        android:textSize="44sp"
-        android:gravity="center"
-        android:layout_centerVertical="true"
-        android:drawableLeft="@mipmap/food2"
-        android:drawableRight="@mipmap/food2"
-        android:textColor="@color/black"/>
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:layout_below="@+id/one"
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/search_bg"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:drawablePadding="9dp"
+            android:fontFamily="@font/amita"
+            android:hint="Search Your Recipe !"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/search_bg"
+            android:padding="10dp"
+            android:onClick="logout"
+            android:src="@drawable/ic_baseline_logout_24"
+            app:layout_constraintBottom_toBottomOf="@+id/editText4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/editText4" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:fontFamily="@font/amarante"
+            android:text="Hello Users"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_marginStart="128dp"
+            android:fontFamily="@font/amita"
+            android:text="Meal Categories !"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="M̳a̳k̳e̳ ̳a̳ ̳F̳o̳o̳d̳ ̳a̳s̳ ̳Y̳o̳u̳r̳ ̳C̳h̳o̳i̳c̳e̳"
-        android:textSize="22dp"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:id="@+id/first"
+        android:background="@drawable/sweets"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:fontFamily="@font/amarante"
+            android:text="Deserts"
+            android:textColor="#0C0C0C"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/amarante"
+            android:text="Top Best Dishes for Deserts"
+            android:textColor="#0C0C0C"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lunch"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:fontFamily="@font/amarante"
+            android:text="LUNCH MENU"
+            android:textColor="#0C0C0C"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-175dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/amarante"
+            android:text="Top Best Dishes for Lunch"
+            android:textColor="#0C0C0C"
+            android:textSize="16dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/third"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/dinner">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DINNER MENU"
+            android:fontFamily="@font/amarante"
+            android:textColor="#0C0C0C"
+            android:textSize="30dp"
+            android:layout_marginLeft="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Best Dishes for Dinner"
+            android:fontFamily="@font/amarante"
+            android:textColor="#0C0C0C"
+            android:textSize="16dp"
+            android:layout_marginLeft="-175dp"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="30dp"
         android:gravity="center"
-        android:textColor="#0099CC"/>
+        android:orientation="horizontal"
+        android:background="@drawable/breakfast">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BREAKFAST MENU"
+            android:fontFamily="@font/amarante"
+            android:textColor="#0C0C0C"
+            android:textSize="30dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="-70dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Best Dishes for Breakfast"
+            android:fontFamily="@font/amarante"
+            android:textColor="#0C0C0C"
+            android:textSize="16dp"
+            android:layout_marginLeft="-215dp"
+            android:layout_marginTop="-15dp"/>
+    </LinearLayout>
+</LinearLayout>
 
-</RelativeLayout>
-
+</ScrollView>

@@ -11,6 +11,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
             android:text="Dinner Recipe - Chesse Khichadi"
             android:textSize="24dp"/>
         <View
@@ -22,7 +23,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Chesse Khichadi recipe in Hindi"
+            android:fontFamily="@font/amita"
+            android:text="Chesse Khichadi"
             android:layout_marginTop="290dp"
             android:textSize="23dp"/>
 

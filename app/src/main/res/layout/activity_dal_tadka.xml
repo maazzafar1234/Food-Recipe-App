@@ -27,7 +27,7 @@
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="दाल तड़का रेसिपी | dal tadka in hindi |"
+            android:text="Dal tadka recipe"
             android:layout_marginTop="290dp"
             android:textSize="23dp"/>
         <TextView
@@ -35,231 +35,215 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="330dp"
             android:textSize="20dp"
-            android:text="सामग्री"/>
+            android:text="Ingredients"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="360dp"
             android:textSize="15dp"
-            android:text="प्रेशर कुकिंग के लिए:"/>
+            android:text="Pressure cooker"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="380dp"
             android:textSize="15dp"
-            android:text="½ कप तूर दाल, साफ किया हुआ"/>
+            android:text="½ cup tuar dal"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="400dp"
             android:textSize="15dp"
-            android:text="2 टेबलस्पून मसूर की दाल, साफ किया हुआ"/>
+            android:text="2 table spoon masoor dal"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="420dp"
             android:textSize="15dp"
-            android:text="¼ टीस्पून हल्दी"/>
+            android:text="¼ tea spoon turmeric"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="440dp"
             android:textSize="15dp"
-            android:text="½ टीस्पून नमक"/>
+            android:text="½ tea spoon salt"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="460dp"
             android:textSize="15dp"
-            android:text="1 टीस्पून तेल"/>
+            android:text="1 tea spoon oil"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="480dp"
             android:textSize="15dp"
-            android:text="1½ कप पानी"/>
+            android:text="1½ cup water"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="500dp"
             android:textSize="15dp"
-            android:text="दाल के लिए:"/>
+            android:text="Dal"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="520dp"
             android:textSize="15dp"
-            android:text="2 टेबलस्पून घी"/>
+            android:text="2 table spoon ghee"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="540dp"
             android:textSize="15dp"
-            android:text="½ टीस्पून जीरा"/>
+            android:text="½ tea spoon jeera"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="560dp"
             android:textSize="15dp"
-            android:text="1 बे पत्ती / तेज पत्ता"/>
+            android:text="1 tej patta"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="580dp"
             android:textSize="15dp"
-            android:text="चुटकी हिंग"/>
+            android:text="hing"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="600dp"
             android:textSize="15dp"
-            android:text="2 सूखी लाल मिर्च"/>
+            android:text="2 dry red chilli"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="620dp"
             android:textSize="15dp"
-            android:text="2 पुत्थी लहसुन, पिसा हुआ"/>
+            android:text="2 dry garlic"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="640dp"
             android:textSize="15dp"
-            android:text="1 इंच अदरक, पिसा हुआ"/>
+            android:text="1 inch ginger"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="660dp"
             android:textSize="15dp"
-            android:text="1 मिर्च, चीरा हुआ"/>
+            android:text="1 red chilli"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="680dp"
             android:textSize="15dp"
-            android:text="1 प्याज, बारीक कटा"/>
+            android:text="1 onion"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="700dp"
             android:textSize="15dp"
-            android:text="¼ टीस्पून हल्दी"/>
+            android:text="¼ tea spoon turmeric"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="720dp"
             android:textSize="15dp"
-            android:text="½ टीस्पून कश्मीरी लाल मिर्च पाउडर"/>
+            android:text="½ tea spoon kashmiri red chilli powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="740dp"
             android:textSize="15dp"
-            android:text="½ टीस्पून धनिया पाउडर"/>
+            android:text="½ tea spoon corriander powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="760dp"
             android:textSize="15dp"
-            android:text="½ टीस्पून नमक"/>
+            android:text="½ teaspoon salt"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="780dp"
             android:textSize="15dp"
-            android:text="1 टमाटर, बारीक कटा हुआ"/>
+            android:text="1 thin slice of tomato"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="800dp"
             android:textSize="15dp"
-            android:text="2 टेबलस्पून धनिया, बारीक कटा हुआ"/>
+            android:text="2 table spoon of corriander"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="820dp"
             android:textSize="15dp"
-            android:text="1 टीस्पून कसूरी मेथी, पिसा हुआ"/>
+            android:text="1 tea spoon of kasoori methi"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="840dp"
             android:textSize="15dp"
-            android:text="¼ टीस्पून गरम मसाला"/>
+            android:text="¼ tea spoon garam masala"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="860dp"
             android:textSize="15dp"
-            android:text="तड़का के लिए:"/>
+            android:text="for tadka"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="880dp"
             android:textSize="15dp"
-            android:text="1 टीस्पून घी"/>
+            android:text="1 tea spoon ghee"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="900dp"
             android:textSize="15dp"
-            android:text="½ टीस्पून जीरा"/>
+            android:text="½ tea spoon jeera"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="920dp"
             android:textSize="15dp"
-            android:text="चुटकी हिंग"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="940dp"
-            android:textSize="15dp"
-            android:text="1 सूखी लाल मिर्च"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="960dp"
-            android:textSize="15dp"
-            android:text="¼ टीस्पून कश्मीरी लाल मिर्च पाउडर"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="980dp"
-            android:textSize="15dp"
-            android:text="1 टीस्पून धनिया, बारीक कटा हुआ"/>
+            android:text="hing"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="1020dp"
             android:textSize="20dp"
-            android:text="बनाने की विधि - How to make दाल तड़का (dal tadka)"/>
+            android:text="How to make dal tadka"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:layout_marginTop="1080dp"
-            android:text="सबसे पहले, प्रेशर कुकर में, ½ कप तूर दाल, 2 टेबलस्पून मसूर दाल लें। आप चाहें तो मूंग दाल भी डाल सकते हैं। ¼ टीस्पून हल्दी, ½ टीस्पून नमक, 1 टीस्पून तेल और 1½ कप पानी भी मिलाएं। 5 सीटी आने तक या दाल के अच्छे से पकने तक प्रेशर कुक करें। 1 कप पानी डालें और स्थिरता को समायोजित करें। एक तरफ रख दो।"/>
+            android:text="Rinse 1 cup tuvar dal or arhar dal (split and husked pigeon pea lentils) for a couple of times in water. Add them to a 3 litre pressure cooker."/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:layout_marginTop="1200dp"
-            android:text="अब एक बड़ी कड़ाई में 2 टेबलस्पून घी और ½ टीस्पून जीरा छिड़के( स्पलटर), 1 तेज पत्ता, चुटकी भर हिंग और 2 सूखी लाल मिर्च को डालें। 2 पुत्थी लहसुन, 1 इंच अदरक, 1 मिर्च को डालें और धीरे से तलिये। आगे 1 प्याज़ डालें और सुनहरा भूरा होने तक तलिये। धीमी आंच पर रखके ¼ टीस्पून हल्दी, ½ टीस्पून मिर्च पाउडर, ½ टीस्पून धनिया पाउडर और ½ टीस्पून नमक डालें। 1 टमाटर डालें और इसे नरम और गूदेदार होने तक तलिये।"/>
+            android:text="Add ½ cup chopped onions, 1 cup finely chopped tomatoes, 1 or 2 green chilies (1 teaspoon of chopped Anaheim pepper or Serrano pepper can be subbed for green chillies) and 1 teaspoon finely chopped ginger.
+
+"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:layout_marginTop="1360dp"
-            android:text="पकी हुई दाल को डालें और आवश्यकतानुसार स्थिरता को समयोजित करते हुए अच्छी तरह से हिलाए। 5 मिनट के लिए या जब तक स्वाद अच्छी तरह से संयुक्त न हो जाए तब तक उबालें।"/>
+            android:text="Pour 2.5 cups of water. If cooking in a pot, then about 4 to 4.5 cups of water can be added."/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:layout_marginTop="1460dp"
-            android:text="अब इसमें 2 टेबलस्पून धनिया, 1 टीस्पून कसूरी मेथी और ¼ टीस्पून गरम मसाला डालें। अच्छी तरह मिलाएं। अंत में, जीरा राइस या स्टीम्ड राइस के साथ दाल तड़का का आनंद लें।"/>
+            android:text="Pressure cook the lentils for about 7 to 8 whistles or more till they become soft and creamy. Mash the cooked lentils with a wired whisk or with a spoon and keep aside."/>
 
         <Button
             android:id="@+id/b2"

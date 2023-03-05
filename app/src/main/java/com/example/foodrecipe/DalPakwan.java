@@ -16,6 +16,6 @@ public class DalPakwan extends AppCompatActivity {
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
         WebView browser = (WebView) findViewById(R.id.webview);
         getLifecycle().addObserver(youTubePlayerView);
-        browser.loadUrl("https://hebbarskitchen.com/hi/sindhi-dal-pakwan-recipe/");
+        browser.loadUrl("https://hebbarskitchen.com/sindhi-dal-pakwan-recipe/");
     }
 }

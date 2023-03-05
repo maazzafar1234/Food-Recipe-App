@@ -2,30 +2,33 @@
 <ScrollView android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#0336FF">
+    android:background="#90CAF9">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".lunchRecipes"
-    android:background="#0336FF">
+    android:background="#90CAF9">
+
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPagerMain"
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:background="#0336FF"/>
+        android:background="#90CAF9" />
+
     <TextView
+        android:id="@+id/head"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lunch Menu"
-        android:textSize="22dp"
-        android:textColor="@color/black"
-        android:background="@color/teal_200"
-        android:textStyle="bold|italic"
         android:layout_marginTop="210dp"
+        android:background="@color/top"
+        android:fontFamily="@font/amita"
         android:gravity="center"
-        android:id="@+id/head"/>
+        android:text="Lunch Menu"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold|italic" />
     <TextView
         android:id="@+id/not"
         android:layout_width="match_parent"
@@ -47,13 +50,14 @@
         android:layout_marginTop="280dp"
         android:textColor="@color/white"
         android:backgroundTint="@color/black"/>
+
     <AutoCompleteTextView
+        android:id="@+id/secondary"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="340dp"
         android:layout_marginLeft="10dp"
-        android:id="@+id/secondary"
-        android:textColor="@color/black"/>
+        android:layout_marginTop="300dp"
+        android:textColor="@color/black" />
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

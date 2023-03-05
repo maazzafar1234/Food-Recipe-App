@@ -36,8 +36,7 @@ public class Breakfast extends AppCompatActivity {
                 new LunchData("Aloo Paratha", R.drawable.paratha,"Recipe"),
                 new LunchData("Dosa", R.drawable.dosa,"Recipe"),
                 new LunchData("Garlic Bread", R.drawable.breaf,"Recipe"),
-                new LunchData("Sandwich", R.drawable.sandwich,"Recipe"),
-                new LunchData("Methi Thepla", R.drawable.thepla,"Recipe"),
+                new LunchData("Sandwich", R.drawable.sandwich,"Recipe")
         };
         RecyclerView recyclerView = (RecyclerView)findViewById(R.id.recycler_view);
         BreakFastAdapter adapter1 = new BreakFastAdapter(this,myListData);

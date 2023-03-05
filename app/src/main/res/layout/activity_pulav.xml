@@ -11,34 +11,39 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
             android:text="Dinner Recipe - Pulav"
             android:textSize="24dp"/>
+
         <View
             android:id="@+id/view1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:background="@drawable/pulav1"
-            android:layout_marginTop="60dp"/>
+            android:layout_marginTop="60dp"
+            android:background="@drawable/pulav" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Special Pulav recipe in Hindi"
             android:layout_marginTop="290dp"
-            android:textSize="23dp"/>
+            android:fontFamily="@font/amita"
+            android:text="Special Pulav recipe"
+            android:textSize="23dp" />
 
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
             android:id="@+id/youtube_player_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:videoId="YKUy2ZJHmNc"
+            app:videoId="UDrJ2T8Ss_Q"
             app:autoPlay="false"
             app:showFullScreenButton="false"
             tools:ignore="MissingConstraints"
             android:layout_marginTop="350dp"/>
+
         <WebView
             android:id="@+id/webview"
-            android:layout_marginTop="620dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp" />
     </RelativeLayout>
 </ScrollView>

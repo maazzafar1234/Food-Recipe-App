@@ -12,7 +12,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Shev Bhaji"
+            android:text="Sev Bhaji"
             android:layout_marginTop="16dp"
             android:textSize="24sp"
             android:gravity="center"
@@ -26,119 +26,119 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Shev Bhaji Recipe in Hindi"
+            android:text="Sev Bhaji Recipe"
             android:layout_marginTop="290dp"
             android:textSize="23dp"
             android:textColor="@color/black"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="330dp"
-            android:textSize="15dp"
-            android:text="सेव भाजी बहुत ही जल्दी बनने वाली सब्जी है। इसे हम ब्रेड,चावल,पराठा,चपाती या पूरी के साथ भी परोस सकते है। सेव भाजी को कई तरीकों से बनाया जाता है। आज हम सेब भाजी को एकदम रेस्टोरेंट जैसा दूध के साथ बनाएंगे "/>
+            android:text="sev bhaji recipe | shev bhaji | sev bhaji ki sabji | shev chi bhaji with detailed photo and video recipe. a unique curry recipe made with the combination of spicy gathiya and curry from khandeshi kala masala. "
+            android:textSize="15dp" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="420dp"
             android:textSize="20dp"
-            android:text="सामग्री"/>
+            android:text="Ingrtedients"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="460dp"
             android:textSize="15dp"
-            android:text="मोटे वाले बेसन के सेव - 100 ग्राम"/>
+            android:text="1 tsp Oil"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="480dp"
             android:textSize="15dp"
-            android:text="दूध  - 500 मि.ली"/>
+            android:text="2 big Onions"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="500dp"
             android:textSize="15dp"
-            android:text="प्याज - 1 छोटी पतले लंबे कटी हुई"/>
+            android:text="4~5 Garlic cloves"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="520dp"
             android:textSize="15dp"
-            android:text="हरी मिर्च - 2-3 बारीक कटी हुई"/>
+            android:text="1 tsp Ginger"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="540dp"
             android:textSize="15dp"
-            android:text="तेज पत्ता - 2-3 टुकड़े "/>
+            android:text="1 tbsp Grated roasted Coconut
+ "/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="560dp"
             android:textSize="15dp"
-            android:text="दाल चीनी - ½इंच का टुकड़ा"/>
+            android:text="
+2 tsp Oil"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="580dp"
             android:textSize="15dp"
-            android:text="खड़ी लाल मिर्च तड़के के लिए"/>
+            android:text="1/2 cup Finely chopped Tomato
+"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="600dp"
             android:textSize="15dp"
-            android:text="राई - ½ चम्मच"/>
+            android:text="1 tbsp Kanda lasun masala
+"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="620dp"
             android:textSize="15dp"
-            android:text="जीरा -  ½ चम्मच"/>
+            android:text="Salt to taste"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="640dp"
             android:textSize="15dp"
-            android:text="हींग - 1 चुटकी"/>
+            android:text="hing half spoon"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="660dp"
             android:textSize="15dp"
-            android:text="लाल मिर्च पाउडर - 1 चम्मच"/>
+            android:text="1 tea spoon red chilli powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="680dp"
             android:textSize="15dp"
-            android:text="हल्दी पाउडर - ½ चम्मच"/>
+            android:text="½ tea spoon turmeric"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="700dp"
             android:textSize="15dp"
-            android:text="धनिया पाउडर - 1½ चम्मच"/>
+            android:text="1½ corriander powder"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="720dp"
             android:textSize="15dp"
-            android:text="धनिया पत्ती सजाने के लिए"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="740dp"
-            android:textSize="15dp"
-            android:text="नमक स्वादानुसार"/>
+            android:text="corriander for decoration"/>
+
         <TextView
             android:id="@+id/s1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="780dp"
             android:textSize="20dp"
-            android:text="बनाने की विधि - How to make सेव भाजी रेसिपी (Shev Bhaji)"/>
+            android:text="How to make Sev Bhaji"/>
         <TextView
             android:id="@+id/s2"
             android:layout_below="@id/s1"
@@ -146,7 +146,7 @@
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:layout_marginTop="10dp"
-            android:text="सबसे पहले कड़ाई में तेल गर्म करे तेल मीडियम ही ले इस सब्जी को बनाने के लिए ज्यादा तेल की जरूरत नहीं पड़ेगी। जब तेल गर्म हो जाए तब उसमे खड़ी लाल मिर्च डाल दे फिर तेज पत्ता और दाल चीनी डालकर थोड़ा चलाए,  फिर राई डाले जब राई तड़कने लगे तो जीरा डाल दे थोड़ा पकने पर प्याज और हरी मिर्च डालकर पकाएं । जब प्याज थोड़ी सुनहरे रंग की हो जाए तब हम इसमें अपने मसाले डालेंगे 1 चम्मच मिर्च, ½ चम्मच हल्दी,1-½ चम्मच धनिया ।"/>
+            android:text="Heat up oil in a pan and add onion, coconut, garlic, and ginger."/>
 
         <TextView
             android:id="@+id/s3"
@@ -155,7 +155,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s2"
             android:layout_marginTop="10dp"
-            android:text="इस मिश्रण को गोल करके कोफ्ता बना ले। अब एक कढ़ाई ले उसमे तेल गरम कर ले। अब बनाए हुए कोफ्ते उसमे डाल कर तल ले। सभी कोफ़्तों को ऐसे ही तले और एक प्लेट मे निकाल कर रख ले।"/>
+            android:text="Fry until onion gets a light golden color."/>
         <TextView
             android:id="@+id/s4"
             android:layout_width="match_parent"
@@ -163,8 +163,7 @@
             android:textSize="15dp"
             android:layout_below="@+id/s3"
             android:layout_marginTop="10dp"
-            android:text="मसालों को तेल आने तक भूंजे जब मसाला भूंज जाए तब हम इसमें दूध डालेंगे और इसे चलाते हुए उबाल आने तक पकाएंगे।
- अब हम सब्जी में नमक डाल देंगे नमक थोड़ा कम ही डाले क्यों कि सेव में  नमक होता है।"/>
+            android:text="When the onion begins to turn light golden, add tomato."/>
         <TextView
             android:id="@+id/s5"
             android:layout_below="@+id/s4"
@@ -172,13 +171,13 @@
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:layout_marginTop="10dp"
-            android:text="सब्जी पक जाने पर इसमें सेव डालकर गैस बंद कर से और धनिया पत्ती डालकर तैयार सेव भाजी को सजाए।  रेस्टोरेंट के तरीके से बनी सेव भाजी तैयार है इसे आप गर्मा गर्म ही परोसिए।"/>
+            android:text="Do not add or add a minimum of water while blending. Masala or vatan is already."/>
 
         <Button
             android:id="@+id/b2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Video on Shev Bhaji Recipe"
+            android:text="Video on Sev Bhaji Recipe"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/s5"
             android:drawableLeft="@drawable/ic_video"/>

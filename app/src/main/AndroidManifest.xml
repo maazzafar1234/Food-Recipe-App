@@ -14,7 +14,18 @@
         android:roundIcon="@drawable/foodlogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodRecipe">
-        <activity android:name=".Thepla"></activity>
+        <activity
+            android:name=".Welcome_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Registration_Activity"/>
+        <activity android:name=".Thepla" />
         <activity android:name=".Max10" />
         <activity android:name=".Max9" />
         <activity android:name=".Max8" />
@@ -40,7 +51,7 @@
         <activity android:name=".Mexicon" />
         <activity android:name=".FastFood" />
         <activity android:name=".DalPakwan" />
-        <activity android:name=".DalMhakhni" />
+        <activity android:name=".DalMakhani" />
         <activity android:name=".Biryani" />
         <activity android:name=".Pasta" />
         <activity android:name=".ChesseKh" />
@@ -206,7 +217,7 @@
         <activity android:name=".BreakfastVideo" />
         <activity android:name=".Breakfast" />
         <activity android:name=".Sweet1" />
-        <activity android:name=".Sweet" />
+        <activity android:name=".Sweets" />
         <activity android:name=".DalFry" />
         <activity android:name=".AlooPanner" />
         <activity android:name=".ChannaButter" />
@@ -214,7 +225,7 @@
         <activity android:name=".PalakPanner" />
         <activity android:name=".MatarPanner" />
         <activity android:name=".DumAloo" />
-        <activity android:name=".FryBhendi" />
+        <activity android:name=".FryBhindi" />
         <activity android:name=".DalTadka" />
         <activity android:name=".VegKolhapuri" />
         <activity android:name=".KajuMasala" />
@@ -230,19 +241,19 @@
         <activity android:name=".VegKalhapuriVideo" />
         <activity android:name=".KajuMasalaVideo" />
         <activity android:name=".ShevBhajiVideo" />
-        <activity android:name=".ShevBhaji" />
+        <activity android:name=".SevBhaji" />
         <activity android:name=".MalaiKofta" />
         <activity android:name=".Corn" />
         <activity android:name=".Lunch1" />
         <activity android:name=".lunchRecipes" />
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login_Activity"
+            android:theme="@style/Theme.FoodRecipe.NoActionBar">
+    </activity>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

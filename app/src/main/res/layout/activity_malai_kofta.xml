@@ -26,7 +26,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Malai Kofta Recipe in Hindi"
+        android:text="Malai Kofta Recipe"
         android:layout_marginTop="290dp"
         android:textSize="23dp"
         android:textColor="@color/black"
@@ -38,7 +38,7 @@
         android:layout_marginTop="10dp"
         android:textSize="15dp"
         android:id="@+id/h1"
-        android:text="मलाई कोफ्ता बहुत ही लाजवाब और स्वादिष्ट डिश है। मलाई कोफ्ता रोटी, नान, कुलचा, पराठा किसी भी चीज़ के साथ खाया जा सकता है। यह एक बहुत ही सदाबहार सब्ज़ी है। इसे आप किसी भी मौसम मे बना सकते है।"/>
+        android:text="Malai Kofta is a delicious dish of fried balls of potato and paneer in a rich and creamy mild gravy made with sweet onions and tomatoes. This melt-in-your-mouth recipe is a labor of love, but one that is well worth it. Learn to make this special Indian meal with me! I’ll show you how with step-by-step photos and video."/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         android:layout_marginTop="10dp"
         android:id="@+id/h2"
         android:textSize="20dp"
-        android:text="सामग्री"/>
+        android:text="Ingredients"/>
     <TextView
         android:id="@+id/s1"
         android:layout_width="match_parent"
@@ -54,7 +54,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/h2"
         android:textSize="15dp"
-        android:text="1 कप पनीर कदुकस किया हुआ"/>
+        android:text="1 cup crushed paneer"/>
     <TextView
         android:id="@+id/s2"
         android:layout_width="match_parent"
@@ -62,7 +62,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s1"
         android:textSize="15dp"
-        android:text="2 आलू उबले हुए"/>
+        android:text="2 boiled aloo"/>
     <TextView
         android:id="@+id/s3"
         android:layout_width="match_parent"
@@ -70,7 +70,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s2"
         android:textSize="15dp"
-        android:text="1 टी स्पून काजू"/>
+        android:text="1 tea spoon of kaju"/>
     <TextView
         android:id="@+id/s4"
         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s3"
         android:textSize="15dp"
-        android:text="1 टी स्पून किशमिश"/>
+        android:text="1 tea spoon kishmish"/>
     <TextView
         android:id="@+id/s5"
         android:layout_width="match_parent"
@@ -86,7 +86,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s4"
         android:textSize="15dp"
-        android:text="3 टी स्पून कोर्न्फ्लौर"/>
+        android:text="3 tea spoon cornflour"/>
     <TextView
         android:id="@+id/s6"
         android:layout_width="match_parent"
@@ -94,7 +94,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s5"
         android:textSize="15dp"
-        android:text="1/4 टी स्पून गरम मसाला"/>
+        android:text="1/4 tea spoon garam masala"/>
     <TextView
         android:id="@+id/s7"
         android:layout_width="match_parent"
@@ -102,7 +102,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s6"
         android:textSize="15dp"
-        android:text="1/2 टी स्पून लाल मिर्च"/>
+        android:text="1/2 tea spoon red chilli"/>
     <TextView
         android:id="@+id/s8"
         android:layout_width="match_parent"
@@ -110,7 +110,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s7"
         android:textSize="15dp"
-        android:text="2 टी स्पून तेल"/>
+        android:text="2 tea spoon oil"/>
     <TextView
         android:id="@+id/s9"
         android:layout_width="match_parent"
@@ -118,7 +118,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s8"
         android:textSize="15dp"
-        android:text="2 प्याज़"/>
+        android:text="2 onion"/>
     <TextView
         android:id="@+id/s10"
         android:layout_width="match_parent"
@@ -126,7 +126,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s9"
         android:textSize="15dp"
-        android:text="2 टमाटर"/>
+        android:text="2 tomato"/>
     <TextView
         android:id="@+id/s11"
         android:layout_width="match_parent"
@@ -134,7 +134,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s10"
         android:textSize="15dp"
-        android:text="1 टी स्पून अदरक लहसुन का पेस्ट"/>
+        android:text="1 tea spoon ginger-garlic paste"/>
     <TextView
         android:id="@+id/s12"
         android:layout_width="match_parent"
@@ -142,7 +142,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s11"
         android:textSize="15dp"
-        android:text="1/2 टी स्पून हल्दी"/>
+        android:text="1/2 tea spoon turmeric"/>
     <TextView
         android:id="@+id/s13"
         android:layout_width="match_parent"
@@ -150,7 +150,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s12"
         android:textSize="15dp"
-        android:text="1/4 कप काजू का पेस्ट"/>
+        android:text="1/4 paste of kaju"/>
     <TextView
         android:id="@+id/s14"
         android:layout_width="match_parent"
@@ -158,7 +158,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s13"
         android:textSize="15dp"
-        android:text="1 तेज़ पत्ता"/>
+        android:text="1 tez patta"/>
     <TextView
         android:id="@+id/s15"
         android:layout_width="match_parent"
@@ -166,7 +166,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s14"
         android:textSize="15dp"
-        android:text="1 टुकड़ा दालचीनी"/>
+        android:text="1 piece of daalchini"/>
     <TextView
         android:id="@+id/s16"
         android:layout_width="match_parent"
@@ -174,7 +174,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s15"
         android:textSize="15dp"
-        android:text="2 इलायची"/>
+        android:text="2 Elaichi"/>
     <TextView
         android:id="@+id/s17"
         android:layout_width="match_parent"
@@ -182,7 +182,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s16"
         android:textSize="15dp"
-        android:text="2 लौंग"/>
+        android:text="2 Laung"/>
     <TextView
         android:id="@+id/s18"
         android:layout_width="match_parent"
@@ -190,7 +190,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s17"
         android:textSize="15dp"
-        android:text="1 टी स्पून कसूरी मेंथी"/>
+        android:text="1 tea spoon kasuri methi"/>
     <TextView
         android:id="@+id/s19"
         android:layout_width="match_parent"
@@ -198,7 +198,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s18"
         android:textSize="15dp"
-        android:text="2 टी स्पून धनिया पत्ता"/>
+        android:text="2 tea spoon corriander leaves"/>
     <TextView
         android:id="@+id/s20"
         android:layout_width="match_parent"
@@ -206,7 +206,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s19"
         android:textSize="15dp"
-        android:text="2 टी स्पून क्रीम"/>
+        android:text="2 tea spoon cream"/>
     <TextView
         android:id="@+id/s21"
         android:layout_width="match_parent"
@@ -214,7 +214,7 @@
         android:layout_marginTop="5dp"
         android:layout_below="@+id/s20"
         android:textSize="15dp"
-        android:text="नमक स्वादानुसार"/>
+        android:text="salt"/>
     <TextView
         android:id="@+id/s22"
         android:layout_width="match_parent"
@@ -222,7 +222,7 @@
         android:layout_marginTop="16dp"
         android:layout_below="@+id/s21"
         android:textSize="20dp"
-        android:text="बनाने की विधि - How to make मलाई कोफ्ता रेसिपी (Malai Kofta)"/>
+        android:text="Recipe of Malai Kofta"/>
     <TextView
         android:id="@+id/s23"
         android:layout_width="match_parent"
@@ -230,7 +230,7 @@
         android:textSize="15dp"
         android:layout_below="@+id/s22"
         android:layout_marginTop="16dp"
-        android:text="मलाई कोफ्ता बनाने के लिए सबसे पहले उबले हुए आलू को ले छील कर मेश करले। अब एक बाउल मे मेश किया हुआ आलू, कॉर्नफ्लोर, कदुकस किया हुआ पनीर, नमक, मिर्च, गरम मसाला, काजू, किशमिश आदि डाल कर अच्छे से मिक्स करले। इन सब को मिला कर एक मिश्रण बना ले।"/>
+        android:text="First boil 2 medium to large potatoes (200 grams) in a pan, Instant pot or a pressure cooker until fork tender or knife tender. Here I have boiled the potatoes in a pressure cooker covering them with water for 4 to 5 whistles on medium heat."/>
 
     <TextView
         android:id="@+id/s24"
@@ -239,7 +239,7 @@
         android:textSize="15dp"
         android:layout_marginTop="10dp"
         android:layout_below="@+id/s23"
-        android:text="इस मिश्रण को गोल करके कोफ्ता बना ले। अब एक कढ़ाई ले उसमे तेल गरम कर ले। अब बनाए हुए कोफ्ते उसमे डाल कर तल ले। सभी कोफ़्तों को ऐसे ही तले और एक प्लेट मे निकाल कर रख ले।"/>
+        android:text="When the potatoes become warm or cool, peel them and grate them in a bowl. Use a box grater or a hand-held grater."/>
     <TextView
         android:id="@+id/s25"
         android:layout_width="match_parent"
@@ -247,7 +247,7 @@
         android:textSize="15dp"
         android:layout_below="@+id/s24"
         android:layout_marginTop="10dp"
-        android:text="प्याज़ और टमाटर को काट कर बारीक़ पीस ले। कढ़ाई को गैस पर रख कर तेल गरम कर ले अब उसमे जीरा डाले। जीरा गरम होने पर उसमे दाल चीनी, इलायची, लौंग, तेज़ पत्ता डालकर भूने साथ ही उसमे प्याज़ टमाटर का बना हुआ मिश्रण भी डाल दे। अब पूरी सामग्री को अच्छे से मिला ले।"/>
+        android:text="100 grams grated paneer or 1 cup grated paneer"/>
     <TextView
         android:id="@+id/s26"
         android:layout_width="match_parent"
@@ -255,7 +255,7 @@
         android:textSize="15dp"
         android:layout_below="@+id/s25"
         android:layout_marginTop="10dp"
-        android:text="अब इसमें हल्दी, मिर्च, अदरक लहसून का पेस्ट, गरम मसाला आदि डालकर तब तक पकाए जब तक तेल अलग ना होने लगे। इतना करने के बाद 2-3 कप पानी डाल दे। और कुछ देर गैस पर पकने के लिए छोड़ दे।"/>
+        android:text="¼ teaspoon red chili powder (or cayenne pepper or paprika)"/>
     <TextView
         android:id="@+id/s27"
         android:layout_width="match_parent"
@@ -263,7 +263,7 @@
         android:textSize="15dp"
         android:layout_below="@+id/s26"
         android:layout_marginTop="10dp"
-        android:text="जब इतना मिश्रण पक जाए तब उसमे बनाए हुए कोफ्ते डाल दे। कुछ देर पकाने के लिए हल्की आंच पर छोड़ दे। कुछ ही देर मे आपका गरम गरम मलाई कोफ्ता तैयार है।"/>
+        android:text="Next add in 2 tablespoons cornflour (cornstarch) or tapioca starch and 3 tablespoons almond flour or fine almond meal."/>
 
     <Button
         android:id="@+id/b2"

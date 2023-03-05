@@ -16,6 +16,6 @@ public class ChesseKh extends AppCompatActivity {
         YouTubePlayerView youTubePlayerView = findViewById(R.id.youtube_player_view);
         WebView browser = (WebView) findViewById(R.id.webview);
         getLifecycle().addObserver(youTubePlayerView);
-        browser.loadUrl("https://cookpad.com/in-hi/recipes/12272386-%E0%A4%AC%E0%A5%87%E0%A4%95%E0%A5%8D%E0%A4%A1-%E0%A4%9A%E0%A5%80%E0%A4%9C%E0%A5%80-%E0%A4%96%E0%A4%BF%E0%A4%9A%E0%A4%A1%E0%A4%BC%E0%A5%80-baked-cheese-khichdi-recipe-in-hindi");
+        browser.loadUrl("https://gulfnews.com/food/cooking-cuisines/kharzi-cheese-khichdi-from-arunachal-pradesh-1.1668682513960");
     }
 }
